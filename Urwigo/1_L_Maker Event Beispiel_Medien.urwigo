@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wherigo:WigoCartridge xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Wherigo="clr-namespace:YourSelf.Urwigo.Wherigo;assembly=Urwigo" xmlns:System="clr-namespace:System;assembly=mscorlib" xmlns:Actions="clr-namespace:YourSelf.Urwigo.Wherigo.Actions;assembly=Urwigo" key="key1">
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Name>
+<System:String>Maker-Magic-Event Beispiel</System:String>
+</Name>
+<Description>
+<System:String>Ein kleiner Wherigo, um die wesentlichen Elemente kennen zu lernen.</System:String>
+</Description>
+<Visible>
+<System:Boolean>True</System:Boolean>
+</Visible>
+<Image>
+<Wherigo:WigoMedia key="key0">
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Name>
+<System:String>Burg</System:String>
+</Name>
+<Description>
+<System:String>Eine mittelalterliche Burg</System:String>
+</Description>
+<AltText>
+<System:String xsi:nil="true" />
+</AltText>
+<Type>
+<Wherigo:WigoMediaType>Image</Wherigo:WigoMediaType>
+</Type>
+<Resources>
+<Wherigo:WigoResource>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Filename>
+<System:String>Burg.jpg</System:String>
+</Filename>
+<Directives>
+<Wherigo:WigoResourceDirectives>None</Wherigo:WigoResourceDirectives>
+</Directives>
+</Wherigo:WigoResource>
+</Resources>
+</Wherigo:WigoMedia>
+</Image>
+<Icon>
+<Wherigo:WigoMedia xsi:nil="true" ref="key0" />
+</Icon>
+<Activity>
+<Wherigo:WigoActivityType>Fiction</Wherigo:WigoActivityType>
+</Activity>
+<StartingLocationDescription>
+<System:String>Du bist auf einem Maker-Magic-Event und möchtest etwas über WIGs lernen.</System:String>
+</StartingLocationDescription>
+<StartingLocation>
+<Wherigo:WigoCoordinate>
+<Latitude>
+<System:Double>49.4864318040598</System:Double>
+</Latitude>
+<Longtitude>
+<System:Double>11.2018147110949</System:Double>
+</Longtitude>
+</Wherigo:WigoCoordinate>
+</StartingLocation>
+<Version>
+<System:String>1.0</System:String>
+</Version>
+<Company>
+<System:String xsi:nil="true" />
+</Company>
+<Author>
+<System:String>MeOl</System:String>
+</Author>
+<CreateDate>
+<System:DateTime>06/03/2023 11:17:12</System:DateTime>
+</CreateDate>
+<UpdateDate>
+<System:DateTime>06/11/2023 11:46:23</System:DateTime>
+</UpdateDate>
+<Complete>
+<System:Boolean>False</System:Boolean>
+</Complete>
+<UseLogging>
+<System:Boolean>False</System:Boolean>
+</UseLogging>
+<InlineRequires>
+<System:Boolean>False</System:Boolean>
+</InlineRequires>
+<InlineRequireLuaPath>
+<System:String>?.lua; lua\?.lua; lua\?\init.lua; ?\init.lua</System:String>
+</InlineRequireLuaPath>
+<ObfuscateStrings>
+<System:Boolean>True</System:Boolean>
+</ObfuscateStrings>
+<HashInputAnswers>
+<System:Boolean>True</System:Boolean>
+</HashInputAnswers>
+<ObfuscateIdentifiers>
+<System:Boolean>True</System:Boolean>
+</ObfuscateIdentifiers>
+<ProtectEmulator>
+<System:Boolean>False</System:Boolean>
+</ProtectEmulator>
+<ProtectEmulatorText>
+<System:String xsi:nil="true" />
+</ProtectEmulatorText>
+<ProtectSimulation>
+<System:Boolean>False</System:Boolean>
+</ProtectSimulation>
+<ProtectSimulationText>
+<System:String xsi:nil="true" />
+</ProtectSimulationText>
+<Media>
+<Wherigo:WigoMedia xsi:nil="true" ref="key0" />
+</Media>
+<Media>
+<Wherigo:WigoMedia>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Name>
+<System:String>alte Frau</System:String>
+</Name>
+<Description>
+<System:String>Eine freundlich aussehende alte Frau</System:String>
+</Description>
+<AltText>
+<System:String xsi:nil="true" />
+</AltText>
+<Type>
+<Wherigo:WigoMediaType>Image</Wherigo:WigoMediaType>
+</Type>
+<Resources>
+<Wherigo:WigoResource>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Filename>
+<System:String>Alte Frau.jpg</System:String>
+</Filename>
+<Directives>
+<Wherigo:WigoResourceDirectives>None</Wherigo:WigoResourceDirectives>
+</Directives>
+</Wherigo:WigoResource>
+</Resources>
+</Wherigo:WigoMedia>
+</Media>
+<Media>
+<Wherigo:WigoMedia>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Name>
+<System:String>Drache_schlaeft</System:String>
+</Name>
+<Description>
+<System:String>Ein schlafender Drache</System:String>
+</Description>
+<AltText>
+<System:String xsi:nil="true" />
+</AltText>
+<Type>
+<Wherigo:WigoMediaType>Image</Wherigo:WigoMediaType>
+</Type>
+<Resources>
+<Wherigo:WigoResource>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Filename>
+<System:String>Drache schlaeft.jpg</System:String>
+</Filename>
+<Directives>
+<Wherigo:WigoResourceDirectives>None</Wherigo:WigoResourceDirectives>
+</Directives>
+</Wherigo:WigoResource>
+</Resources>
+</Wherigo:WigoMedia>
+</Media>
+<Media>
+<Wherigo:WigoMedia>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Name>
+<System:String>Wald</System:String>
+</Name>
+<Description>
+<System:String>Ein dichter, dunkler Wald</System:String>
+</Description>
+<AltText>
+<System:String xsi:nil="true" />
+</AltText>
+<Type>
+<Wherigo:WigoMediaType>Image</Wherigo:WigoMediaType>
+</Type>
+<Resources>
+<Wherigo:WigoResource>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Filename>
+<System:String>Wald.jpg</System:String>
+</Filename>
+<Directives>
+<Wherigo:WigoResourceDirectives>None</Wherigo:WigoResourceDirectives>
+</Directives>
+</Wherigo:WigoResource>
+</Resources>
+</Wherigo:WigoMedia>
+</Media>
+<Media>
+<Wherigo:WigoMedia>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Name>
+<System:String>Drache_wach</System:String>
+</Name>
+<Description>
+<System:String>Der Drache ist wach!</System:String>
+</Description>
+<AltText>
+<System:String xsi:nil="true" />
+</AltText>
+<Type>
+<Wherigo:WigoMediaType>Image</Wherigo:WigoMediaType>
+</Type>
+<Resources>
+<Wherigo:WigoResource>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Filename>
+<System:String>Drache.jpg</System:String>
+</Filename>
+<Directives>
+<Wherigo:WigoResourceDirectives>None</Wherigo:WigoResourceDirectives>
+</Directives>
+</Wherigo:WigoResource>
+</Resources>
+</Wherigo:WigoMedia>
+</Media>
+<Media>
+<Wherigo:WigoMedia>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Name>
+<System:String>Muenze</System:String>
+</Name>
+<Description>
+<System:String>Eine alte Muenze</System:String>
+</Description>
+<AltText>
+<System:String xsi:nil="true" />
+</AltText>
+<Type>
+<Wherigo:WigoMediaType>Image</Wherigo:WigoMediaType>
+</Type>
+<Resources>
+<Wherigo:WigoResource>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Filename>
+<System:String>Geldstück.jpg</System:String>
+</Filename>
+<Directives>
+<Wherigo:WigoResourceDirectives>None</Wherigo:WigoResourceDirectives>
+</Directives>
+</Wherigo:WigoResource>
+</Resources>
+</Wherigo:WigoMedia>
+</Media>
+<Media>
+<Wherigo:WigoMedia>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Name>
+<System:String>Knappe</System:String>
+</Name>
+<Description>
+<System:String>Ein Knappe. Er scheint sich auf der Burg auszukennen</System:String>
+</Description>
+<AltText>
+<System:String xsi:nil="true" />
+</AltText>
+<Type>
+<Wherigo:WigoMediaType>Image</Wherigo:WigoMediaType>
+</Type>
+<Resources>
+<Wherigo:WigoResource>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Filename>
+<System:String>Knappe.jpg</System:String>
+</Filename>
+<Directives>
+<Wherigo:WigoResourceDirectives>None</Wherigo:WigoResourceDirectives>
+</Directives>
+</Wherigo:WigoResource>
+</Resources>
+</Wherigo:WigoMedia>
+</Media>
+<Media>
+<Wherigo:WigoMedia>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Name>
+<System:String>Dose</System:String>
+</Name>
+<Description>
+<System:String>Auf zum Final!</System:String>
+</Description>
+<AltText>
+<System:String xsi:nil="true" />
+</AltText>
+<Type>
+<Wherigo:WigoMediaType>Image</Wherigo:WigoMediaType>
+</Type>
+<Resources>
+<Wherigo:WigoResource>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Filename>
+<System:String>traditional_72.gif</System:String>
+</Filename>
+<Directives>
+<Wherigo:WigoResourceDirectives>None</Wherigo:WigoResourceDirectives>
+</Directives>
+</Wherigo:WigoResource>
+</Resources>
+</Wherigo:WigoMedia>
+</Media>
+<Media>
+<Wherigo:WigoMedia>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Name>
+<System:String>Kette</System:String>
+</Name>
+<Description>
+<System:String>Eine schoene Armkette</System:String>
+</Description>
+<AltText>
+<System:String xsi:nil="true" />
+</AltText>
+<Type>
+<Wherigo:WigoMediaType>Image</Wherigo:WigoMediaType>
+</Type>
+<Resources>
+<Wherigo:WigoResource>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Filename>
+<System:String>Kette.jpg</System:String>
+</Filename>
+<Directives>
+<Wherigo:WigoResourceDirectives>None</Wherigo:WigoResourceDirectives>
+</Directives>
+</Wherigo:WigoResource>
+</Resources>
+</Wherigo:WigoMedia>
+</Media>
+<Media>
+<Wherigo:WigoMedia>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Name>
+<System:String>Geocacher</System:String>
+</Name>
+<Description>
+<System:String>Du</System:String>
+</Description>
+<AltText>
+<System:String xsi:nil="true" />
+</AltText>
+<Type>
+<Wherigo:WigoMediaType>Image</Wherigo:WigoMediaType>
+</Type>
+<Resources>
+<Wherigo:WigoResource>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+<Filename>
+<System:String>cacher.JPG</System:String>
+</Filename>
+<Directives>
+<Wherigo:WigoResourceDirectives>None</Wherigo:WigoResourceDirectives>
+</Directives>
+</Wherigo:WigoResource>
+</Resources>
+</Wherigo:WigoMedia>
+</Media>
+<Player>
+<Wherigo:WigoPlayer>
+<Identifier>
+<System:String>Player</System:String>
+</Identifier>
+</Wherigo:WigoPlayer>
+</Player>
+<CurrentZone>
+<Wherigo:WigoCurrentZone>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+</Wherigo:WigoCurrentZone>
+</CurrentZone>
+<CurrentCharacter>
+<Wherigo:WigoCurrentCharacter>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+</Wherigo:WigoCurrentCharacter>
+</CurrentCharacter>
+<CurrentItem>
+<Wherigo:WigoCurrentItem>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+</Wherigo:WigoCurrentItem>
+</CurrentItem>
+<CurrentTask>
+<Wherigo:WigoCurrentTask>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+</Wherigo:WigoCurrentTask>
+</CurrentTask>
+<CurrentInput>
+<Wherigo:WigoCurrentInput>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+</Wherigo:WigoCurrentInput>
+</CurrentInput>
+<CurrentTimer>
+<Wherigo:WigoCurrentTimer>
+<Identifier>
+<System:String xsi:nil="true" />
+</Identifier>
+</Wherigo:WigoCurrentTimer>
+</CurrentTimer>
+<Environment>
+<Wherigo:WigoEnvironment>
+<Identifier>
+<System:String>Env</System:String>
+</Identifier>
+</Wherigo:WigoEnvironment>
+</Environment>
+<StartAction>
+<Actions:EventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoCartridge xsi:nil="true" ref="key1" />
+</Owner>
+</Actions:EventAction>
+</StartAction>
+<EndAction>
+<Actions:EventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoCartridge xsi:nil="true" ref="key1" />
+</Owner>
+</Actions:EventAction>
+</EndAction>
+<ResumeAction>
+<Actions:EventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoCartridge xsi:nil="true" ref="key1" />
+</Owner>
+</Actions:EventAction>
+</ResumeAction>
+<SaveAction>
+<Actions:EventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoCartridge xsi:nil="true" ref="key1" />
+</Owner>
+</Actions:EventAction>
+</SaveAction>
+<GlobalZoneEnterAction>
+<Actions:GlobalEventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoCartridge xsi:nil="true" ref="key1" />
+</Owner>
+</Actions:GlobalEventAction>
+</GlobalZoneEnterAction>
+<GlobalZoneExitAction>
+<Actions:GlobalEventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoCartridge xsi:nil="true" ref="key1" />
+</Owner>
+</Actions:GlobalEventAction>
+</GlobalZoneExitAction>
+<GlobalZoneDistantAction>
+<Actions:GlobalEventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoCartridge xsi:nil="true" ref="key1" />
+</Owner>
+</Actions:GlobalEventAction>
+</GlobalZoneDistantAction>
+<GlobalZoneProximityAction>
+<Actions:GlobalEventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoCartridge xsi:nil="true" ref="key1" />
+</Owner>
+</Actions:GlobalEventAction>
+</GlobalZoneProximityAction>
+<GlobalZoneActiveChangedAction>
+<Actions:GlobalEventAction>
+<Enabled>
+<System:Boolean>True</System:Boolean>
+</Enabled>
+<Owner>
+<Wherigo:WigoCartridge xsi:nil="true" ref="key1" />
+</Owner>
+</Actions:GlobalEventAction>
+</GlobalZoneActiveChangedAction>
+<UserDirectives>
+<System:String xsi:nil="true" />
+</UserDirectives>
+<UserFunctions>
+<System:String xsi:nil="true" />
+</UserFunctions>
+</Wherigo:WigoCartridge>
